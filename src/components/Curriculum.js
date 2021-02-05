@@ -33,7 +33,7 @@ function getCurriculumElements() {
   const elements = curriculumList.map(({ tag, title, subtitle }) => {
     return (
       <MyListItem>
-        <Flex alignItems="baseline">
+        <Flex alignItems="baseline" flexWrap="wrap">
           <MyListTag>{tag}</MyListTag>
           <Flex flexDirection="column">
             <MyListTitle>{title}</MyListTitle>
