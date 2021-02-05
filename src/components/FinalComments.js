@@ -3,27 +3,15 @@ import finalCommentsImg from "../images/final-comments.png";
 import codereviewImg from "../images/codereview.png";
 import googlemeetImg from "../images/googlemeet.png";
 
-import "./FinalComments.css";
 import IPhone from './IPhone';
 import ImageSlide from './ImageSlide';
 
-const height = document.height;
+import "./FinalComments.css";
 
-const styles = {
-  container: {
-    width: "1200px",
-  },
-  codereviewImg: {
-    width: "800px",
-  },
-};
-
-function FinalComment() {
+function FinalComments() {
   return (
     <React.Fragment>
-      <div 
-        className="slide"
-      >
+      <div className="slide">
         <div className="title">이런 경험들이 좋았어요.</div>
         <ImageSlide
           title={'매일 PR 날리고 코드리뷰 받기'}
@@ -47,15 +35,11 @@ function FinalComment() {
             매일매일 서로의 코드를 보고 다양한 생각을 듣는 것이 성장에
             많은 도움이 되었어요.
           </div>
-          <img
-            src={
-              "https://item.kakaocdn.net/do/c5c470298d527ef65eb52883f0f186c482f3bd8c9735553d03f6f982e10ebe70"
-            }
-          ></img>
+          <img src={"https://item.kakaocdn.net/do/c5c470298d527ef65eb52883f0f186c482f3bd8c9735553d03f6f982e10ebe70"}></img>
         </div>
       </div>
     </React.Fragment>
   );
 }
 
-export default FinalComment;
+export default FinalComments;
