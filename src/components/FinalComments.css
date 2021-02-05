@@ -1,0 +1,41 @@
+.slide {
+  width: 800px;
+  margin: auto;
+  padding: 100px 0px;
+}
+
+.slide > .title {
+  font-size: 34px;
+  font-weight: bold;
+  padding-bottom: 100px;
+}
+
+.image-slide{
+  height: 100vh;
+
+}
+.image-slide > .title {
+  font-size: 24px;
+  font-weight: bold;
+  padding-bottom: 50px;
+}
+.image-slide > img{
+  width: 700px;
+}
+.image-slide > .caption {
+  margin-top:5px;
+  font-size: 16px;
+  color: gray;
+}
+
+.content{
+  margin-top: 50px;
+  margin-left:70px;
+}
+
+.content > .title {
+  font-size:20px;
+  font-weight: bold;
+  margin: 10px 0px;
+  
+}
