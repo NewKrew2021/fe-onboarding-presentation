@@ -1,3 +1,7 @@
+* {
+  word-break: keep-all;
+}
+
 .App {
   text-align: center;
 }
@@ -26,4 +30,16 @@
 }
 .p-3 {
   padding: 2em;
+}
+
+.m-auto {
+  margin: auto;
+}
+
+.mw-900 {
+  max-width: 900px;
+}
+
+.bg-yellow {
+  background-color: #ffd700 !important;
 }
