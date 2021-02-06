@@ -23,7 +23,7 @@ const curriculumList = [
     subtitle: "MVC, Observer 패턴으로 의존성 줄이기",
   },
   {
-    tag: "4주차: TODO 페이지",
+    tag: "5주차: TODO 페이지",
     title: "매끄럽게 동작하는 웹",
     subtitle: "TypeScript, Test, 최적화",
   },
@@ -33,7 +33,7 @@ function getCurriculumElements() {
   const elements = curriculumList.map(({ tag, title, subtitle }) => {
     return (
       <MyListItem>
-        <Flex alignItems="baseline">
+        <Flex alignItems="baseline" flexWrap="wrap">
           <MyListTag>{tag}</MyListTag>
           <Flex flexDirection="column">
             <MyListTitle>{title}</MyListTitle>

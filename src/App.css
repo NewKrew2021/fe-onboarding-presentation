@@ -1,3 +1,29 @@
 .App {
   text-align: center;
 }
+
+@media (min-width: 480px) {
+  body {
+    font-size: 110%;
+  }
+}
+@media (min-width: 768px) {
+  body {
+    font-size: 140%;
+  }
+}
+@media (min-width: 1024px) {
+  body {
+    font-size: 180%;
+  }
+}
+
+.p-1 {
+  padding: 0.5em;
+}
+.p-2 {
+  padding: 1em;
+}
+.p-3 {
+  padding: 2em;
+}

@@ -8,12 +8,13 @@ export const MyHero = styled.div`
   align-items: start;
   width: 100vw;
   height: 100vh;
+  max-width: 100vw;
+  max-height: 100vh;
   overflow: hidden;
   color: #1e1e1e;
   background-color: #ffd700;
   background-size: cover;
   background-repeat: no-repeat;
-  font-size: 180%;
   padding: 3rem 8% 5rem 8%;
   text-align: left;
 `;
@@ -55,4 +56,22 @@ export const MyListSubtitle = styled.span`
   font-size: 70%;
   color: #37373F;
   margin: 0;
+`
+
+export const YoutubeWrapper = styled.div`
+  flex: 1;
+  position: relative;
+  width: auto;
+  height: 100%;
+  padding-bottom: 56.25%;
+  border-radius: 1.5em;
+  border: 6px solid #1e1e1e;
+  overflow: hidden;
+`
+
+export const Youtube = styled.iframe`
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: none;
 `
