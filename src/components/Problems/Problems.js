@@ -2,10 +2,10 @@ import React from "react";
 import categoryBeforeGif from "../images/category-before.gif";
 import categoryAfterGif from "../images/category-after.gif";
 import todoDragAndDropGif from "../images/draganddrop.gif";
-import Macbook from "./Macbook";
+import Macbook from "../Macbook/Macbook";
 
 import "./Problems.css";
-import Chat from "./Chat";
+import Chat from "../Chat/Chat";
 
 const categoryChat = [
   {

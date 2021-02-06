@@ -3,8 +3,8 @@ import finalCommentsImg from "../images/final-comments.png";
 import codereviewImg from "../images/codereview.png";
 import googlemeetImg from "../images/googlemeet.png";
 
-import IPhone from './IPhone';
-import ImageSlide from './ImageSlide';
+import IPhone from '../IPhone/IPhone';
+import ImageSlide from '../ImageSlide/ImageSlide';
 
 import "./FinalComments.css";
 

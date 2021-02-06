@@ -1,5 +1,5 @@
 import { Flex } from "rebass";
-import { MyHeading, MyHero, Youtube, YoutubeWrapper } from "../MyStyled";
+import { MyHeading, MyHero, Youtube, YoutubeWrapper } from "../../MyStyled";
 
 function WhatWeMade() {
   return (

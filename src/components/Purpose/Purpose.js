@@ -1,4 +1,4 @@
-import { MyHeading, MyHero } from "../MyStyled";
+import { MyHeading, MyHero } from "../../MyStyled";
 
 function Purpose() {
   return (

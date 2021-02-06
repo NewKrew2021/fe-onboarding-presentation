@@ -1,5 +1,5 @@
 import { Flex } from "rebass";
-import { MyHeading, MyHero, MyList, MyListItem, MyListTag, MyListTitle, MyListSubtitle } from "../MyStyled";
+import { MyHeading, MyHero, MyList, MyListItem, MyListTag, MyListTitle, MyListSubtitle } from "../../MyStyled";
 
 const curriculumList = [
   {
