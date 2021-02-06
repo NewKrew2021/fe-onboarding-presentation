@@ -1,23 +1,5 @@
-.slide {
-  width: 900px;
-  margin: auto;
-  padding: 100px 0px;
-  margin-top: 40px;
-}
-
 .title {
-  padding-top: 50px;
-  font-size: 40px;
-  padding-left: 24px;
+  font-size: 24px;
   font-weight: 600;
-}
-
-.content{
-  margin-left:70px;
-}
-
-.content > .title {
-  font-size:24px;
-  margin: 10px 0px;
-  
+  text-align: center;
 }

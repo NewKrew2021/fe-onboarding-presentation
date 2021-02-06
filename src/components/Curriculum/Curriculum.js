@@ -51,7 +51,7 @@ function getCurriculumElements() {
 
 function Curriculum() {
   return (
-    <MyHero>
+    <MyHero className="bg-yellow">
       <MyHeading>5주 동안</MyHeading>
       {getCurriculumElements()}
     </MyHero>

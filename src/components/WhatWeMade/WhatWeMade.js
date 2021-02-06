@@ -3,7 +3,7 @@ import { MyHeading, MyHero, Youtube, YoutubeWrapper } from "../../MyStyled";
 
 function WhatWeMade() {
   return (
-    <MyHero>
+    <MyHero className="bg-yellow">
       <Flex alignSelf="stretch" alignItems="center">
         <Flex flexDirection="column" flex="1">
           <MyHeading>우리가 만들었어요!</MyHeading>

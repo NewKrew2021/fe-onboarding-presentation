@@ -1,10 +1,10 @@
-import { MyHeading, MyHero } from "../../MyStyled";
+import { MyHeading, MyHero, MySubHeading } from "../../MyStyled";
 
 function Purpose() {
   return (
-    <MyHero>
+    <MyHero className="bg-yellow">
       <MyHeading>학습목표</MyHeading>
-      <p>React, Vue 등 현대 프레임워크의 밑바탕이 되는 기초지식 이해</p>
+      <MySubHeading>React, Vue 등 현대 프레임워크의 밑바탕이 되는 기초지식 이해</MySubHeading>
     </MyHero>
   );
 }

@@ -1,17 +1,19 @@
 .image-slide {
-  height: 100vh;
-}
-.image-slide > .title {
-  font-weight: 600;
-  font-size: 30px;
-  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  flex: auto;
 }
 .image-slide > img {
-  width: 700px;
+  margin: auto;
+  display: block;
+  width: 100%;
 }
 .image-slide > .caption {
-  margin-top: 5px;
+  padding-top: 5px;
+  margin: 0;
   font-size: 16px;
   color: gray;
   font-style: italic;
+  text-align: center;
 }
