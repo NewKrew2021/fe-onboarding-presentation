@@ -1,5 +1,7 @@
 import "./Chat.css";
 
+// https://codepen.io/gabigan/pen/EGyLPp
+
 const sampleChat = [
   {
     sender: true,
@@ -36,10 +38,7 @@ const sampleChat = [
   },
 ];
 
-function Chat(props) {
-
-    // const {data} = props.data;
-    const data = sampleChat;
+function Chat({data}) {
   return (
     <div id="messanger">
       <div class="inner">

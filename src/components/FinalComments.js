@@ -28,7 +28,7 @@ function FinalComments() {
         <IPhone image = {finalCommentsImg}/>
         <div className="content">
           <div className="title">
-            같은 미션을 해결하면서 어려운 점이 있을 때 서로 물어보면서 많은 도움을 받았어요.
+            같은 미션을 해결하면서 동료들에게 도움을 받았고, 그 과정에서 많이 배울 수 있었어요.
           </div>
           <img src="https://item.kakaocdn.net/do/5c7668788e937dacb19c9648cb49b321b3a18fdf58bc66ec3f4b6084b7d0b570"></img>
           <div className="title">
