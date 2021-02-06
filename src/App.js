@@ -1,8 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
 import Intro from './components/Intro';
 import Purpose from './components/Purpose';
 import Curriculum from './components/Curriculum';
+import FinalComments from './components/FinalComments';
+import Problems from './components/Problems';
 
 function App() {
   return (
@@ -10,6 +11,8 @@ function App() {
       <Intro/>
       <Purpose/>
       <Curriculum/>
+      <Problems />
+      <FinalComments/>
     </div>
   );
 }
