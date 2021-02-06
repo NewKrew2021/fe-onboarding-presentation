@@ -1,0 +1,18 @@
+.slide > .title{
+    padding-top: 50px;
+    font-size: 40px;
+    margin: 0.2em 0;
+    padding-left: 24px;
+    font-weight: 600;
+    padding-bottom: 30px;
+}
+
+.subtitle{
+    
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.demoimg {
+    width: 800px;
+}
