@@ -1,12 +1,13 @@
 import React from 'react';
-import finalCommentsImg from "../images/final-comments.png";
-import codereviewImg from "../images/codereview.png";
-import googlemeetImg from "../images/googlemeet.png";
 
 import IPhone from '../IPhone/IPhone';
 import ImageSlide from '../ImageSlide/ImageSlide';
 
 import "./FinalComments.css";
+
+const finalCommentsImg = "images/final-comments.png";
+const codereviewImg = "images/codereview.png";
+const googlemeetImg = "images/googlemeet.png";
 
 function FinalComments() {
   return (
