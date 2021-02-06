@@ -1,0 +1,17 @@
+.image-slide {
+  height: 100vh;
+}
+.image-slide > .title {
+  font-weight: 600;
+  font-size: 30px;
+  padding-bottom: 50px;
+}
+.image-slide > img {
+  width: 700px;
+}
+.image-slide > .caption {
+  margin-top: 5px;
+  font-size: 16px;
+  color: gray;
+  font-style: italic;
+}
