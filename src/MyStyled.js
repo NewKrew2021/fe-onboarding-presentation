@@ -6,25 +6,50 @@ export const MyHero = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: start;
+  position: relative;
   width: 100vw;
-  height: 100vh;
   max-width: 100vw;
-  max-height: 100vh;
+  min-height: 100vh;
   overflow: hidden;
   color: #1e1e1e;
-  background-color: #ffd700;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-color: #ffffff;
   padding: 3rem 8% 5rem 8%;
   text-align: left;
 `;
 
 export const MyHeading = styled.h1`
-  font-size: 250%;
-  margin: 0.2em 0;
+  font-size: 220%;
+  margin: 0.1em 0 0.45em 0;
   padding-left: 24px;
   border-left: 8px solid #1e1e1e;
 `;
+
+export const MySubHeading = styled.h1`
+  font-size: 100%;
+  font-weight: normal;
+  margin: 0 0 0.5em 0;
+`;
+
+export const CenterItalic = styled.p`
+  font-size: 80%;
+  font-weight: normal;
+  font-style: italic;
+  text-align: center;
+  padding: 1em 0;
+  width: 100%;
+`
+
+export const Slide = styled.div`
+  width: 750px;
+  margin: auto;
+  position: relative;
+`
+
+export const LargeSlide = styled.div`
+  width: 900px;
+  margin: auto;
+  position: relative;
+`
 
 export const MyList = styled.ul`
   list-style: square;

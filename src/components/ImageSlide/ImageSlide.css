@@ -1,0 +1,19 @@
+.image-slide {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  flex: auto;
+}
+.image-slide > img {
+  margin: auto;
+  display: block;
+  width: 100%;
+}
+.image-slide > .caption {
+  padding-top: 5px;
+  margin: 0;
+  font-size: 16px;
+  color: gray;
+  font-style: italic;
+  text-align: center;
+}

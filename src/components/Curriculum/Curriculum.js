@@ -1,5 +1,5 @@
 import { Flex } from "rebass";
-import { MyHeading, MyHero, MyList, MyListItem, MyListTag, MyListTitle, MyListSubtitle } from "../MyStyled";
+import { MyHeading, MyHero, MyList, MyListItem, MyListTag, MyListTitle, MyListSubtitle } from "../../MyStyled";
 
 const curriculumList = [
   {
@@ -51,7 +51,7 @@ function getCurriculumElements() {
 
 function Curriculum() {
   return (
-    <MyHero>
+    <MyHero className="bg-yellow">
       <MyHeading>5주 동안</MyHeading>
       {getCurriculumElements()}
     </MyHero>

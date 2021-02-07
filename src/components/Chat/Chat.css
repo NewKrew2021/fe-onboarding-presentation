@@ -1,12 +1,13 @@
 #messanger {
   background-color: lightgray !important;
   text-align: start;
-  width: 900px;
+  width: 100%;
+  max-width: 900px;
   padding: 30px 20px;
+  margin: 2rem auto;
   border-radius: 16px;
   background-color: #fff;
-  top: calc(50% - 200px);
-  left: calc(50% - 150px);
+  font-size: 1.5rem;
 }
 
 #messanger .inner {
@@ -27,11 +28,12 @@
 }
 
 #messanger .bubble {
+  font-size: 18px;
   background-color: #fff;
   padding: 6px 12px;
   border-radius: 16px;
   display: inline-block;
-  max-width: 70%;
+  max-width: 60%;
   border-radius: 4px 16px 16px 4px;
   -webkit-border-radius: 4px 16px 16px 4px;
   -moz-border-radius: 4px 16px 16px 4px;
