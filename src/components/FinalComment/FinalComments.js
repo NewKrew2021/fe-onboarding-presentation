@@ -16,8 +16,8 @@ function FinalComments() {
     <React.Fragment>
       <MyHero>
         <MyHeading>이런 경험들이 좋았어요.</MyHeading>
-        <MySubHeading>매일 PR 날리고 코드리뷰 받기</MySubHeading>
         <Slide>
+          <MySubHeading>매일 PR 날리고 코드리뷰 받기</MySubHeading>
           <ImageSlide
             img={codereviewImg}
             caption="훈훈한 코드리뷰의 현장.jpg"
@@ -26,8 +26,8 @@ function FinalComments() {
       </MyHero>
       <MyHero>
         <Slide>
+          <MySubHeading>매일 아침 스크럼하기</MySubHeading>
           <ImageSlide
-            title="매일 아침 스크럼하기"
             img={googlemeetImg}
             caption="쁘이"
           />

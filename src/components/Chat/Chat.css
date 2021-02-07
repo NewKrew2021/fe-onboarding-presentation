@@ -28,6 +28,7 @@
 }
 
 #messanger .bubble {
+  font-size: 18px;
   background-color: #fff;
   padding: 6px 12px;
   border-radius: 16px;

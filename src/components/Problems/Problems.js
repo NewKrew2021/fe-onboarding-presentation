@@ -55,7 +55,7 @@ const draganddropChat = [
     author_img:
       "https://item.kakaocdn.net/do/3b983689b4a25b0807fe9f01fc872e768b566dca82634c93f811198148a26065",
     text: [
-      "드래그 앤 드롭을 구현하라니.. 흔한 UI이지만 직접 구현한다니 감이 잘 오지 않아.",
+      "드래그 앤 드롭을 구현하라니.. 감이 잘 오지 않아.",
     ],
   },
   {
