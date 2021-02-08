@@ -11,7 +11,7 @@ function WhatWeMade() {
             <Youtube
               title="MadeByFE"
               src="https://www.youtube.com/embed/-WLlcVxBmnQ"
-              allowFullScreen="true"
+              allowFullScreen={true}
             ></Youtube>
           </YoutubeWrapper>
         </Flex>
